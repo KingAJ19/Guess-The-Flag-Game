@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
             resultMsg.textContent = 'Correct!';
             resultMsg.style.color = 'green';
         } else {
-            resultMsg.textContent = 'Incorrect. Try again.';
+            resultMsg.textContent = 'Incorrect.';
             resultMsg.style.color = 'red';
         }
 
